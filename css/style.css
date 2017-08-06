@@ -689,7 +689,7 @@ span.nav-close:before {
 }
 
 .contact-info a, a:hover {
-	color:black;	
+	color:#333;	
 	text-decoration: underline
 }
 
