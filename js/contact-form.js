@@ -33,15 +33,16 @@ var contactForm = (function () {
 
         var mailContent = " name: " + name +
             "\n subject: " + subject +
-            "\n message: " + message;
+            "\n message: \n" + message;
 
         $.ajax({
             url: _FORM_URL,
-            type: 'POST',
+            method: 'POST',
             data: {
                 email: email,
                 message: mailContent
             },
+            dataType: "json",
             success: function (msg) {
                 $("#sendmessage").show().delay(3000).fadeOut();
             },
