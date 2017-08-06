@@ -4,7 +4,7 @@ var contactForm = (function () {
 
 
     // --------------------------------- Private Variables ------------------------------------------- 
-    var _FORM_URL = 'http://formspree.io/nxhoaf@gmail.com';
+    var _FORM_URL = 'https://formspree.io/nxhoaf@gmail.com';
     var _validator;
     // --------------------------------- Private Functions -------------------------------------------
     var _sendMail;
