@@ -404,6 +404,25 @@ img#site-title {
 	margin:0;
 	font-size: 12px;
 }
+.grid-gallery div {
+	width: 255px;
+	height: 211px;
+	background-color:#fff;
+}
+.grid-gallery div img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+	object-position: top;
+}
+.grid-gallery a {
+	color:#fff;	
+	text-decoration: underline
+}
+.grid-gallery a:hover {
+	color:orange;	
+	text-decoration: underline
+}
 /* Grid style */
 .grid-wrap {
 		margin:0 auto;
@@ -688,7 +707,7 @@ span.nav-close:before {
 	color:#92DD03;	
 }
 
-.contact-info a, a:hover {
+.contact-info a {
 	color:#333;	
 	text-decoration: underline
 }
