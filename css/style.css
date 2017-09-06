@@ -380,6 +380,20 @@ img#site-title {
 	border-bottom: 4px double #eee;
 }
 
+.img-wrapper {
+	margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 150px;
+    display: table
+}
+
+.img-education {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
 /* General style */
 .grid-gallery ul {
 	list-style:none;
